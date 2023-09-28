@@ -1,0 +1,166 @@
+#tsparticles{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: -200000;
+}
+.particles {
+  position: relative;
+  z-index: -200000;
+}
+.navbar{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0px;
+  z-index: 1000;
+  overflow: hidden;
+  top: 0;
+  background-color: #4286FF;
+}
+.notNav{
+  top: 100px;
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+}
+
+@font-face {
+  font-family: retro-text;
+  src: url("./assets/Retro_Gaming.ttf");
+}
+
+.abtMe {
+  font-family: retro-text;
+  position: relative;
+  /* padding-bottom: 500px; */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  z-index: 100;
+  background-color: #3763B3;
+}
+
+.notNav h1{
+  z-index: 100;
+}
+
+.abtMe a{
+  box-shadow: inset 0 0 0 0 #3763B3;
+  text-decoration: none;
+  padding: 0 5px;
+  color: #000;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.abtMe a:hover{
+  text-decoration: none;
+  /* color: black; */
+  /* box-shadow: inset 200px 0 0 0 #3C4142; */
+  box-shadow: inset 200px 0 0 0 #000;
+  color: #3763B3;
+}
+
+/* Profile Pic Image */
+
+.notNav img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -100;
+  /* margin-top: 100px; */
+}
+
+body {
+  margin: 0;
+  /* background-color: #2a6575; */
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarItem {
+  display: inline-block;
+  color: #e5e9ec;
+  /* padding: 14px 16px; */
+  /* padding-top: 3%; */
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+.homeBtn{
+  display: contents;
+  /* padding: 16px 16px 16px 16px; */
+  padding: 0px 0px 0px 0px;
+
+}
+
+.wrapper {
+  position: relative;
+  display: block;
+  width: 20%;
+  height: 20%;
+
+  /* overflow: hidden; */
+  margin-top: 20%;
+  margin-left: 35%;
+}
+#slide {
+  position: relative;
+  left: 0px;
+  margin-top: -300px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+#crate {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  top: 20px;
+  z-index: 2;
+}
+.wrapper:hover #slide{
+  transition: all 0.5s ease-in-out;
+
+  left: -530px;
+}
+
+.homeIcon {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+  background: url("./assets/duck_icon.png");
+}
+.homeIcon:hover{
+  background: url("./assets/duck_icon_sleep.png");
+}
+
+.duck{
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0; 
+  width: 100%;
+}
+
+
+.nonCrate{
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  height: 93vh;
+  background-color: #3763B3;
+
+}
