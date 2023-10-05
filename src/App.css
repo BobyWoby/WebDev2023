@@ -101,36 +101,57 @@ body {
   padding: 0px 0px 0px 0px;
 
 }
-
 .wrapper {
   position: relative;
   display: block;
   width: 20%;
   height: 20%;
-
   /* overflow: hidden; */
   margin-top: 20%;
-  margin-left: 35%;
+  /* margin-left: 34%; */
+  margin-left: 34%;
+  margin-right: auto;
+  max-width: 5vw;
 }
-#slide {
+
+.emptyWrapper {
+  margin-bottom: 40vh;
+  margin-top: 40vh;
+  display: block;
+  text-align: center;
+}
+.emptyWrapper h1{
+  font-family: retro-text;
+  font-size: 10vw;
+ 
+  color: #3763B3;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 100;
+}
+
+#crate {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  /* top: 20px; */
+  top: 2.5vh;
+  z-index: 2;
+}
+
+#slideDuck {
   position: relative;
   left: 0px;
   margin-top: -300px;
   z-index: 1;
   transition: all 0.5s ease-in-out;
 }
-#crate {
-  position: relative;
-  /* width: 100%;
-  height: 100%; */
-  top: 20px;
-  z-index: 2;
-}
-.wrapper:hover #slide{
-  transition: all 0.5s ease-in-out;
 
-  left: -530px;
+.wrapper:hover #slideDuck{
+  transition: all 0.5s ease-in-out;
+  left: -500px;
 }
+
 
 .homeIcon {
   width: 64px;
@@ -159,8 +180,10 @@ body {
 .nonCrate{
   position: relative;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 0px;
   height: 93vh;
+  width: 100%;
   background-color: #3763B3;
+  text-align: center;
 
 }
