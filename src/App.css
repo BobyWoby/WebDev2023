@@ -73,7 +73,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  z-index: -100;
+  /* z-index: -100; */
   /* margin-top: 100px; */
 }
 
@@ -180,10 +180,72 @@ body {
 .nonCrate{
   position: relative;
   width: 100%;
-  margin-top: 0px;
-  height: 93vh;
+  height: 100vh;
   width: 100%;
   background-color: #3763B3;
   text-align: center;
 
+}
+
+.nonCrate span{
+  font-family: retro-text;
+  font-size: 4vh;
+  color: #fff;
+  z-index: 00;
+  padding: 0,0;
+}
+
+.linkTableSubhead {
+  background-color: #4286FF;
+  color: #4286FF;
+}
+.bfImage{
+  z-index: 99999;
+}
+
+.linktable {
+  margin-top: 0%;
+}
+
+.top5{
+  margin-top: 0px;
+  padding-top: 10vh;
+  
+}
+
+.scheduleTable{
+  border-spacing: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 95%;
+  margin: 0 auto;
+}
+.period{
+  width: 2.5%;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+
+}
+.weekday{
+  height: 2.5%;
+  border: 1px solid black;
+  border-top: 2px solid black;
+}
+.thickleft{
+  border-left: 2px solid black !important;
+}
+.thickright{
+  border-right: 2px solid black !important;
+}
+.nobordertop { border-top: none !important; }
+.noborderbottom { border-bottom: none !important; }
+.noborderleft { border-left: none !important; }
+.noborderright { border-right: none !important; }
+.scheduleTableColumn{
+  border: 1px solid black;
+  width: 20%;
+  height: 10vh
+  
 }
