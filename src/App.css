@@ -239,6 +239,54 @@ body {
 .thickright{
   border-right: 2px solid black !important;
 }
+.parent{
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  /* background-color: #3763B3; */
+  background-color: #fff;
+  text-align: center;
+  /* margin-top: 0px; */
+  /* margin-bottom: 100px; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  /* padding-bottom: 500px; */
+  /* z-index: 100; */
+
+}
+.lunch {
+  opacity: 1;
+  /* margin-top: 50%;   */
+  /* margin-top: 2.5vh; */
+  top: 92%;
+  left: 50%; 
+  position: absolute;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.menu{
+  opacity: 0;
+  /* display: block; */
+  position: absolute;
+  top: 87.7%;
+  left: 48.5%;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+.menuBack {
+  background-image: url("./assets/sage.png");
+  width: 108px;
+  height: 108px;
+}
+.lunch:hover{
+  opacity: 0;
+}
+.menu:hover{
+  opacity: 1;
+
+}
 .nobordertop { border-top: none !important; }
 .noborderbottom { border-bottom: none !important; }
 .noborderleft { border-left: none !important; }
