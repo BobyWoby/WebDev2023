@@ -263,7 +263,7 @@ body {
   opacity: 1;
   /* margin-top: 50%;   */
   /* margin-top: 2.5vh; */
-  top: 92%;
+  top: 96%;
   left: 50%; 
   position: absolute;
   transition: .5s ease;
@@ -273,7 +273,7 @@ body {
   opacity: 0;
   /* display: block; */
   position: absolute;
-  top: 87.7%;
+  top: 91.5%;
   left: 48.5%;
   transition: .5s ease;
   backface-visibility: hidden
