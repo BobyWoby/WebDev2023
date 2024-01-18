@@ -301,7 +301,53 @@ body {
   
 }
 
+.welcome {
+  position: absolute;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 5vw;
+  color: #e0a500;
+  margin-left: 27vw;
+  margin-top: 35vh;
+
+  /* margin-bottom: auto; */
+  /* z-index: 100; */
+}
 .backgroundImg{
   width: 100vw;
-  height: 99.6vh;
+  height: 90vh;
+}
+.nonBackground{
+  width: 100vw;
+  /* height: 93vh; */
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #3763B3;
+}
+.introText{
+  margin: auto;
+  width: 75vw;
+}
+.introText h4{
+  margin: auto;
+}
+.introTitle{
+  margin: auto auto;
+  font-size: 3vw;
+}
+.aboutUnderdark{
+  margin: auto;
+  text-align: center;
+  width: 75vw;
+}
+.thingsToDo{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.thingText{
+  
+}
+.mobileBackround{
+  width: 100vw;
+  height: 100vh;
+  background-color: #3763B3;
 }
